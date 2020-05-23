@@ -24,3 +24,13 @@ Currently in W.I.P. Status
 		- Directives
 		- Common Models
 	- CustomModule:
+
+
+
+
+# Idea Mockups
+## DO NOT IMPLEMENT
+### Components Workflow
+Finite statuses; Active, Inactive, Busy, onError [...] driven by directive.
+StatusChange Callback.
+Attach templates for every status (evaluate).
