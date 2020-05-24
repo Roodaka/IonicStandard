@@ -6,7 +6,7 @@ Currently in W.I.P. Status
 - Update the guide to MultiApp Structure
 - Write the MultiApp Example
 ## General Purpose structure
- - AppModule
+ - AppModule (that must implements Injection Tokens to spread the environment)
 	- CoreModule: App Level Single Imports
 		- Error Handling
 		- Environment Modelling
