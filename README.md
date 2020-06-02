@@ -1,5 +1,5 @@
 # Standard Hybrid Mobile App Structure Mokup
-Currently in W.I.P. Status
+Currently in Work-In-Progress Status
 ## Roadmap
 - Completing the guide (maybe translate?)
 - Write the example project
@@ -8,6 +8,7 @@ Currently in W.I.P. Status
 ## General Purpose structure
  - AppModule (that must implements Injection Tokens to spread the environment)
 	- CoreModule: App Level Single Imports
+		- Language set up
 		- Error Handling
 		- Environment Modelling
 		- Storage
@@ -24,13 +25,12 @@ Currently in W.I.P. Status
 		- Directives
 		- Common Models
 	- CustomModule:
+	- PageModule:
 
-
-
-
+=================
 # Idea Mockups
 ## DO NOT IMPLEMENT
 ### Components Workflow
 Finite statuses; Active, Inactive, Busy, onError [...] driven by directive.
 StatusChange Callback.
-Attach templates for every status (evaluate).
+Contemplate CDK Overlay Directive
