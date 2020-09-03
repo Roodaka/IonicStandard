@@ -18,10 +18,10 @@ Currently in Work-In-Progress Status
 		- Authentication Service
 		- Navigation Guards
 		- Token Validation
-	- CommonsModule: Business Level Signleton Imports
+	- CommonsModule: Business Level Stateful Imports
 		- Push Notifications Subscription
 		- Cordova Plugin abstactions (Geo, Camera, InAppBrowser, etc.
-	- SharedModule: Business Level Non-Singleton Imports
+	- SharedModule: Business Level Stateless Imports
 		- Directives
 		- Common Models
 	- CustomModule:
